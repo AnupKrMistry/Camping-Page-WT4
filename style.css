@@ -39,15 +39,27 @@ nav img{
     height: 50px;
     border-radius: 100px;
 }
+
+@media screen and (max-width: 850px) {
+    .nav-link {
+      display: none;
+    }
+  }
+  
+
 section{
     background-color: #ececec;
     padding: 5% 5% 3% 5%;
+}
+.home{
+    text-align: center;
 }
 .home h1{
     font-size: 50px;
     font-weight: 900;  
     font-family: Arial, sans-serif;
     margin-bottom: 1%;
+   
 }
 .home p{
     font-size: 20px;
