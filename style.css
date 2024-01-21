@@ -27,7 +27,7 @@ nav a{
     font-size: large;
     padding-left: 25px;
     padding-right: 25px;
-    font-size: 25px;
+    font-size: 18px;
 }
 nav a:hover{
     color: #ccc;
@@ -36,7 +36,7 @@ nav div{
     margin-right: 20px;
 }
 nav img{
-    height: 70px;
+    height: 50px;
     border-radius: 100px;
 }
 section{
@@ -44,13 +44,13 @@ section{
     padding: 5% 5% 3% 5%;
 }
 .home h1{
-    font-size: 65px;
+    font-size: 50px;
     font-weight: 900;  
     font-family: Arial, sans-serif;
     margin-bottom: 1%;
 }
 .home p{
-    font-size: 28px;
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     margin: 5px;
 }
@@ -58,9 +58,9 @@ section{
     margin: 40px;
     background-color: #fff;
     border: 2px solid #fff;
-    padding: 20px 40px 20px 40px;
+    padding: 10px 30px 10px 30px;
     border-radius: 8px;
-    font-size: 24px;
+    font-size: 20px;
     text-decoration: none;  
     font-family: Arial, Helvetica, sans-serif;
     color: #353535;
@@ -89,20 +89,20 @@ main article {
    padding-bottom: 60px;
 }
 .title h1{
-    font-size: 45px;
+    font-size: 32px;
     font-weight: 800;
 }
 .title > p{
     margin-top: 5px;
-    font-size: 24px;
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
 .card{
     margin-top: 60px;
     border-radius: 10px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    gap:50px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap:40px;
 }
 .card-item{
     background-color: #fff;
@@ -110,10 +110,10 @@ main article {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 50px;
+    padding: 30px;
     border-radius: 10px;
     row-gap: 20px;
-    padding-bottom: 80px;
+    padding-bottom: 50px;
     text-align: center;
 }
 .card-item img{
@@ -125,37 +125,39 @@ main article {
     margin-bottom: 20px;
 }
 .card-item > strong{
-    font-size: 28px;
+    font-size: 22px;
 }
 .card-item > p{
-    font-size: 24px; 
+    font-size: 20px; 
 }
 .about strong{
-    font-size: 25px;
+    font-size: 22px;
     font-weight: 900;
     line-height: 60px;
 }
 .about p,  ul > li{
-    font-size: 24px;
+    font-size: 20px;
     line-height: 35px;;
 }
 .contact-box{
-    display: flex;
-    column-gap: 100px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap:40px;
+ 
 }
 .contact-sec{
-    font-size: 24px;
+    font-size: 18px;
     color: #3d3d3d;
     flex-grow: 2;
 }
 .contact-sec div{
-    line-height: 45px;
+    line-height: 30px;
 }
 .contact-sec div span{
-    padding-right: 20px;
+    padding-right: 10px;
 }
 .message{
-    width: 40vw;
+    width: 100%;
     gap: 30px;
 }
 .message input{
@@ -170,14 +172,14 @@ main article {
 }
 .message input, textarea{
     width: 100%;
-    font-size: 22px;
-    padding: 14px;
+    font-size: 18px;
+    padding: 8px;
 }
 .message button{
-    padding: 15px 30px 15px 30px;
+    padding: 12px 30px 12px 30px;
     background-color: #3d3d3d;
     color: #fff;
-    font-size: 24px;
+    font-size: 18px;
     border-radius: 5px;
     border: none;
 }
